@@ -1,0 +1,38 @@
+.ant-section__ant086_breadcrumbs {
+    background-image: url(../img/ant086_breadcrumbs/back-forum.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.ant-section__ant086_breadcrumbs-wrap {
+    background: rgba(35, 55, 77, 0.801);
+}
+
+.ant086_breadcrumbs-wraaper-det {
+    padding: 50px 0;
+}
+
+.ant086_breadcrumbs-wraaper-det h3 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.ant086_breadcrumbs-wraaper-det h4 {
+    color: #fff;
+}
+
+.ant086_breadcrumbs-wraaper-det h4 a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.ant086_breadcrumbs-wraaper-det h4 i {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .ant086_breadcrumbs-wraaper-det h3 {
+        font-size: 30px;
+    }
+}

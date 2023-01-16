@@ -1,0 +1,51 @@
+#ant-section__ant013_page404 {
+    padding: 100px 0;
+}
+
+.ant013_page404__search-form {
+    margin: 30px auto 0;
+    max-width: 500px;
+}
+
+#ant-section__ant013_page404 h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+#ant-section__ant013_page404 h3 {
+    text-align: center;
+    margin: 30px 0 0;
+    color: #7b7b7b;
+    font-weight: 400;
+}
+
+/* SEARCH FORM */
+
+.ant009_post-search-form {
+    display: flex;
+}
+
+.ant009_post-search-form input[type='search'] {
+    height: 40px;
+    border: 1px solid #eee;
+    padding: 0 10px;
+    flex: 1;
+}
+
+.ant009_post-search-form button {
+    height: 40px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    background: #444;
+    transition: all .5s;
+    border: 1px solid #444;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ant009_post-search-form button:hover {
+    background: transparent;
+    color: #444;
+}

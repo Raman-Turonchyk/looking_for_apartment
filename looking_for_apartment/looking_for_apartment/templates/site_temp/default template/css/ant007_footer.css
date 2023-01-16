@@ -1,0 +1,93 @@
+#ant-section__ant007_footer {
+	background-color: #232c35;
+	padding: 80px 0 80px;
+}
+
+#ant-section__ant007_footer .footer-btn {
+    width: 50%;
+    font-size: 14px;
+    height: 50px;
+    line-height: 0;
+}
+#ant-section__ant007_footer .footer-item {}
+#ant-section__ant007_footer .footer-item img {
+    padding-bottom: 40px;
+}
+#ant-section__ant007_footer .footer-item p {
+    color: #8d949c;
+    font-size: 15px;
+    letter-spacing: .2px;
+	line-height: 28px;
+	margin-bottom: 0;
+} 
+#ant-section__ant007_footer .footer-item a.btn {
+	display: inline-block;
+	background: #f87206;
+	color: #fff;
+	cursor: pointer;
+    margin-top: 40px;
+    font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 24px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	border: 2px solid transparent;
+	padding: 13px 40px;
+	border-radius: 5px;
+	transition: all .5s;
+	text-decoration: none;
+}
+#ant-section__ant007_footer .footer-item a.btn:hover {
+	background: #fff;
+	color: #f87206;
+}
+#ant-section__ant007_footer .footer-item span {
+    color: #fff;
+    font-size: 12px;
+    padding-bottom: 5px;
+    display: inline-block;
+    font-weight: 700;
+}
+#ant-section__ant007_footer .footer-item h6 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px
+}
+
+#ant-section__ant007_footer .footer-menu {
+	margin: 30px 0 0;
+	padding: 0;
+	list-style: none;
+}
+#ant-section__ant007_footer .footer-menu li {
+	margin-bottom: 20px;
+}
+#ant-section__ant007_footer .footer-menu li:last-child {
+	margin-bottom: 0;
+}
+#ant-section__ant007_footer .footer-menu li a {
+    text-decoration: none;
+    color: #8d949c;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: initial;
+    letter-spacing: .4px;
+}
+#ant-section__ant007_footer .footer-menu li a:hover {
+    color: #f87206; 
+}
+#ant-section__ant007_footer .ant007_footer__foter-item-wrap {
+	padding-top: 40px;
+}
+#ant007_footer__copy-right {
+	text-align: center;
+    background: #0f0f0f;
+    padding: 20px 0;
+}
+#ant007_footer__copy-right p {
+	line-height: 25px;
+    color: #8d949c;
+    font-size: 16px;
+    margin: 0;
+}

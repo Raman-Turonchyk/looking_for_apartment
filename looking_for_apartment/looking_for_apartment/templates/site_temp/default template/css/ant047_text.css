@@ -1,0 +1,24 @@
+.ant-section__ant047_text {
+    padding: 50px 0;
+    background: #fbfbfb;
+}
+
+.ant-section__ant047_text h3 {
+    color: #1c2029;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.ant-section__ant047_text p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #626262;
+    line-height: 1.7;
+}
+
+.ant-section__ant047_text .mt-60 {
+    margin-top: 60px;
+}
+.ant-section__ant047_text .mb-30 {
+    margin-bottom: 30px;
+}

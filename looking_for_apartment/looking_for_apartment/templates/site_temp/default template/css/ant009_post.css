@@ -1,0 +1,404 @@
+/* BREADCRUMBS */
+div#ant-section__breadcrumbs {
+    background-image: url(../img/breadcrumb-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 90px 0 90px;
+    background-color: #FBFBFB;
+    z-index: 0;
+}
+
+div#ant-section__breadcrumbs:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    content: '';
+    z-index: -1;
+}
+
+.art_net_theme_breadcrumbs {
+    font-size: 16px;
+}
+
+.ant-section__breadcrumbs span.ant_sep {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.art_net_theme_breadcrumbs a {
+    color: #03a9f4;
+}
+
+.art_net_theme_breadcrumbs a:hover {
+    color: #fff;
+}
+
+.art_net_theme_breadcrumbs .ant_title {
+    color: #fff;
+}
+
+/* HEADERS SECTIONS */
+
+.art_net_theme_header-section {
+    text-align: center;
+}
+
+.art_net_theme_section-overtitle,
+.art_net_theme_section-overtitle * {
+    font-size: 24px;
+    color: #0BBBF8;
+    line-height: 30px;
+}
+
+.art_net_theme_section-title h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-weight: bold;
+    color: #313131;
+}
+
+.art_net_theme_section-subtitle,
+.art_net_theme_section-subtitle * {
+    font-size: 15px;
+    color: #777777;
+    line-height: 27px;
+}
+
+.art_net_theme_header-section div * {
+    margin: 0;
+    padding: 0;
+}
+
+.art_net_theme_section-title-separator {
+    text-align: center;
+    margin: 10px auto 23px;
+}
+
+@charset 'UTF-8';
+
+/* default styles for post */
+.art_net_theme-post-ant009_post {
+    margin: 50px 0;
+}
+
+.ant009_post-category {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.ant009_post-media-post {
+    margin-bottom: 30px;
+}
+
+.ant009_post-post-content h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.ant009_post-entry-meta {
+    margin-bottom: 20px;
+    color: #adadad;
+    font-size: 1.2em;
+    line-height: 1;
+    padding: 10px 0;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.ant009_post-text {
+    font-size: 1.2em;
+}
+
+.ant009_post-post-tags {
+    font-size: 1.1em;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+/* comments styles */
+.ant009_post-comments-area {
+    margin-bottom: 50px;
+}
+
+.ant009_post-comments-title {
+    margin-bottom: 20px;
+}
+
+.ant009_post-comments-area ul {
+	list-style: none;
+    margin-bottom: 0px;
+}
+
+.ant009_post-comments-area ul.children {
+	margin: 30px 0;
+}
+
+.ant009_post-post-list-comments {
+    padding: 0;
+}
+
+.ant009_post-post-list-comments .comment-meta img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.ant009_post-post-list-comments li.comment {
+	margin: 0px 0 30px;
+}
+
+.ant009_post-post-list-comments li.comment > div {
+    background: #f9f9f9;
+    padding: 20px;
+}
+
+#ant009_post-post-comment-form #reply-title {
+    margin-bottom: 20px;
+}
+
+#ant009_post-post-comment-form p {
+	margin-bottom: 10px;
+}
+
+#ant009_post-post-comment-form p.comment-notes {
+    color: #ccc;
+    font-size: 1.1em;
+}
+
+#ant009_post-post-comment-form p.comment-form-comment label,
+#ant009_post-post-comment-form p.comment-form-author label,
+#ant009_post-post-comment-form p.comment-form-email label,
+#ant009_post-post-comment-form p.comment-form-url label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#ant009_post-post-comment-form p.comment-form-comment textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 0;
+}
+
+#ant009_post-post-comment-form p.comment-form-author input,
+#ant009_post-post-comment-form p.comment-form-email input,
+#ant009_post-post-comment-form p.comment-form-url input {
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 40px;
+}
+
+#ant009_post-post-comment-form form {
+    max-width: 500px;
+}
+
+#ant009_post-post-comment-form p.comment-form-cookies-consent {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+}
+
+#ant009_post-post-comment-form p.comment-form-cookies-consent label {
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+#ant009_post-post-comment-form p.form-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#ant009_post-post-comment-form p.form-submit input[type="submit"] {
+    height: 40px;
+    background: transparent;
+    border: 1px solid #444;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+#ant009_post-post-comment-form p.form-submit input[type="submit"]:hover {
+    background: #444;
+    color: #fff;
+}
+
+/* SINGLE POST NAV */
+.art_net_theme-post-ant009_post .post-navigation .nav-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.art_net_theme-post-ant009_post .navigation.post-navigation {
+    margin-bottom: 50px;
+}
+
+.art_net_theme-post-ant009_post .post-navigation .nav-links > div {
+    text-align: center;
+    max-width: 100%;
+    min-width: 190px;
+    flex: 1;
+}
+
+.art_net_theme-post-ant009_post .post-navigation .nav-links > div a {
+    display: block;
+    background: #f9f9f9;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.art_net_theme-post-ant009_post .post-navigation .nav-links > div a:hover {
+    background: #e2e2e2;
+}
+
+/* POST BLOG */
+.ant009_post-blog-category {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.ant009_post-blog-category .taxonomy-description p:last-child {
+    margin-bottom: 0;
+}
+
+article.art_net_theme-post-blog-ant009_post {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+article.art_net_theme-post-blog-ant009_post:last-child {
+    margin-bottom: 0;
+}
+
+.ant009_post-post-blog-info h3 {
+    font-size: 24px;
+}
+
+.ant009_post-post-blog-info h3 a {
+    color: #444;
+    transition: all .5s;
+}
+
+.ant009_post-post-blog-info h3 a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.ant009_post-post-blog-info p:last-child {
+    margin-bottom: 0;
+}
+
+.ant009_post-post-blog-info p.entry-meta {
+    color: #929292;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.ant009_post-post-blog-info a.more-link {
+    display: block;
+    background: transparent;
+    border: 1px solid #444;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: all .5s;
+    color: #444;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ant009_post-post-blog-info a.more-link:hover {
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+}
+
+.art_net_theme-post-ant009_post .navigation.pagination .nav-links > * {
+    padding: 10px 13px;
+    color: #444;
+    display: inline-block;
+    border: 1px solid #444;
+    line-height: 1;
+    margin-right: 10px;
+    transition: all .5s;
+    margin-top: 10px;
+}
+
+.art_net_theme-post-ant009_post .navigation.pagination .nav-links > *:hover {
+    text-decoration: none;
+    background: #444;
+    color: #fff;
+}
+
+.art_net_theme-post-ant009_post .navigation.pagination .nav-links > *.current {
+    color: #989898;
+    border-color: #989898;
+    background: transparent;
+}
+
+/* SEARCH FORM */
+
+.ant009_post-search-form {
+    display: flex;
+}
+
+.ant009_post-search-form input[type='search'] {
+    height: 40px;
+    border: 1px solid #eee;
+    padding: 0 10px;
+    flex: 1;
+}
+
+.ant009_post-search-form button {
+    height: 40px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    background: #444;
+    transition: all .5s;
+    border: 1px solid #444;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ant009_post-search-form button:hover {
+    background: transparent;
+    color: #444;
+}
+
+/* SIDEBAR */
+
+.ant009_post-sidebar {
+    margin: 50px 0;
+}
+
+.ant009_post-widget {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 0 0 30px;
+}
+
+.ant009_post-widget-title {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.ant009_post-widget ul {
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+.ant009_post-widget:last-child {
+    margin-bottom: 0;
+}
+
+.ant009_post-sidebar table#wp-calendar {
+    width: 100%;
+}

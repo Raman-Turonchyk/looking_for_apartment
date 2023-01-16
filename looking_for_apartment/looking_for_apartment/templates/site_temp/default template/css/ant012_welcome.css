@@ -1,0 +1,166 @@
+.ant-section__ant012_welcome {
+	position: relative;
+	overflow: hidden;
+}
+
+.ant-section__ant012_welcome .banner-center-box {
+	padding: 120px 0;
+	max-height: 100%;
+	max-width: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.ant-section__ant012_welcome .banner-center-box.text-white h1 {
+	color: #fff;
+}
+
+.ant-section__ant012_welcome .slide-content h1 {
+	position: relative;
+	font-size: 50px;
+	line-height: 70px;
+}
+
+.ant-section__ant012_welcome .banner-center-box.text-white .description {
+	color: white;
+}
+
+.ant-section__ant012_welcome .slide-content .text-center .description {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ant-section__ant012_welcome .slide-content .description {
+	margin-top: 15px;
+	line-height: 1.9;
+	font-size: 16px;
+	opacity: 0.85;
+}
+
+.ant-section__ant012_welcome .banner-center-box > * {
+	position: relative;
+}
+
+.ant-section__ant012_welcome .color-bg-heading {
+	background-color: #292f35;
+}
+
+.ant-section__ant012_welcome .opacity-60 {
+	opacity: 0.60;
+}
+
+.ant-section__ant012_welcome .overlay-colored {
+	z-index: 1;
+	background: #4a4a4a;
+}
+
+.ant-section__ant012_welcome .overlay-colored,
+.ant-section__ant012_welcome .overlay-pattern {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.ant-section__ant012_welcome .slide-content {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	top: 0;
+	z-index: 1;
+}
+
+.ant-section__ant012_welcome .banner-parallax {
+	overflow: hidden;
+	position: relative;
+	/*background-color: #bbb;*/
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.ant-section__ant012_welcome .banner-parallax.blured-bg > .bg-element {
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+}
+
+.ant-section__ant012_welcome .banner-parallax > .bg-element {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: no-repeat top center / cover;
+}
+
+.ant-section__ant012_welcome .banner-parallax > .bg-element + img {
+	display: none;
+}
+
+.ant-section__ant012_welcome .banner-parallax,
+.ant-section__ant012_welcome .banner-parallax .row > [class*="col-"] {
+	min-height: 800px;
+}
+
+.ant-section__ant012_welcome .banner-parallax .row {
+	display: flex;
+	align-items: center;
+}
+
+.ant-section__ant012_welcome .banner-parallax .row > [class*="col-"] {
+	display: flex;
+	align-items: center;
+}
+
+.ant-section__ant012_welcome .banner-parallax .container,
+.ant-section__ant012_welcome .banner-parallax .row,
+.ant-section__ant012_welcome .banner-parallax .row > [class*="col-"] {
+	height: 100%;
+	z-index: 1;
+}
+
+.ant-section__ant012_welcome .btn.colorful,
+.ant-section__ant012_welcome .btn.hover-colorful:hover {
+	background-color: #1b8bf9;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	border-color: #1b8bf9;
+	/*box-shadow: 0 3px 14px 4px rgba(27, 139, 249, 0.22);*/
+}
+
+.ant-section__ant012_welcome .btn.xx-large {
+	padding: 12px 55px;
+	font-size: 24px;
+	border-width: 3px;
+}
+
+.ant-section__ant012_welcome .btn.rounded {
+	border-radius: 999px;
+}
+
+.ant-section__ant012_welcome .banner-center-box > * {
+	position: relative;
+}
+
+.ant-section__ant012_welcome .btn {
+    margin-top: 40px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 17px 35px;
+	font-size: 14px;
+	border-radius: 2px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+	text-align: center;
+	border: 2px solid;
+	/*box-shadow: 0 3px 14px 4px rgba(27, 139, 249, 0.22);*/
+	transition: color 0.2s, background 0.2s, border-color 0.2s;
+}
+
+.ant-section__ant012_welcome .btn.colorful-darken, .ant-section__ant012_welcome .btn.hover-colorful-darken:hover {
+    background-color: #067cef;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-color: #067cef;
+    /*box-shadow: 0 3px 14px 4px rgba(6, 124, 239, 0.22);*/
+}

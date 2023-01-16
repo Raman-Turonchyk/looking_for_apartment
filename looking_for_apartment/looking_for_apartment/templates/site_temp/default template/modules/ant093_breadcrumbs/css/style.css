@@ -1,0 +1,195 @@
+/*
+Theme Name: art-net-theme-html
+Theme URI: https://html6.com.ru
+Author: html6.com.ru
+Author URI: https://html6.com.ru
+Description: Тема-оболочка для контент-секций.
+Version: 1.0
+
+*/
+
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+section,
+header,
+footer,
+main {
+	position: relative;
+}
+
+img {
+	max-width: 100%;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+blockquote, q {
+    padding-left: 10px;
+    border-left: 2px solid #eee;
+}
+
+table {
+	width: 100%;
+}
+
+table td, table th {
+	padding: 10px 10px;
+    border: 1px solid #c7c7c7;
+}
+
+table tr:nth-child(odd) td {
+	background: #f1f1f1;
+}
+
+
+
+table tr:nth-child(even) td {
+	background: #dadada;
+}
+
+/* SCROLL TO TOP */
+.art_net_theme-scroll-to-top {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	position: fixed;
+	bottom: 150px;
+	right: 20px;
+	display: none;
+	z-index: 999;
+	background-color: #44b2fe;
+	transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	transition: transform 0.3s, -webkit-transform 0.3s;
+	overflow: hidden;
+}
+.art_net_theme-scroll-to-top:before, .art_net_theme-scroll-to-top:after {
+	content: '';
+	position: absolute;
+	display: block;
+	top: 15px;
+	background-color: #fff;
+	height: 20px;
+	width: 5px;
+}
+.art_net_theme-scroll-to-top:before {
+	-webkit-transform: rotate(-45deg);
+	      transform: rotate(-45deg);
+	left: 28px;
+	box-shadow: -8px 14px 0px 8px #1ba1fe;
+}
+.art_net_theme-scroll-to-top:after {
+	-webkit-transform: rotate(45deg);
+	      transform: rotate(45deg);
+	right: 28px;
+}
+.art_net_theme-scroll-to-top:focus {
+	outline: none;
+}
+
+/* CONTENT IMAGE */
+
+img.alignleft {
+    float: left;
+    margin: 15px;
+}
+
+img.alignright {
+    float: right;
+    margin: 15px;
+}
+
+img.aligncenter {
+    display: block;
+    margin: 15px auto;
+}
+
+/* BREADCRUMBS */
+div#ant-section__breadcrumbs {
+    background-image: url(https://resources.html6.com.ru/images/breadcrumb-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 90px 0 90px;
+    background-color: #FBFBFB;
+    z-index: 0;
+}
+
+div#ant-section__breadcrumbs:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    content: '';
+    z-index: -1;
+}
+
+.art_net_theme_breadcrumbs {
+    font-size: 16px;
+    color: #fff;
+}
+
+.ant-section__breadcrumbs span.ant_sep {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.art_net_theme_breadcrumbs a {
+    color: #03a9f4;
+}
+
+.art_net_theme_breadcrumbs a:hover {
+    color: #fff;
+}
+
+.art_net_theme_breadcrumbs .ant_title {
+    color: #fff;
+}
+
+/* HEADERS SECTIONS */
+
+.art_net_theme_header-section {
+    text-align: center;
+}
+
+.art_net_theme_section-overtitle,
+.art_net_theme_section-overtitle * {
+    font-size: 24px;
+    color: #0BBBF8;
+    line-height: 30px;
+}
+
+.art_net_theme_section-title h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-weight: bold;
+    color: #313131;
+}
+
+.art_net_theme_section-subtitle,
+.art_net_theme_section-subtitle * {
+    font-size: 15px;
+    color: #777777;
+    line-height: 27px;
+}
+
+.art_net_theme_header-section div * {
+    margin: 0;
+    padding: 0;
+}
+
+.art_net_theme_section-title-separator {
+    text-align: center;
+    margin: 10px auto 23px;
+}

@@ -1,0 +1,40 @@
+.ant-section__ant083_devider {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.ant083_devider-progress {
+    border: 0;
+    clear: both;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background: rgba(1, 15, 30, 0.1);
+    height: 1px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ant083_devider-progress::before {
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-name: ant083_devider;
+    background: #1089ff;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 80px;
+    left: 0;
+}
+
+@keyframes ant083_devider {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 100%;
+    }
+}

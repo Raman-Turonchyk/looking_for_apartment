@@ -1,0 +1,194 @@
+.ant-section__ant011_team {
+	padding: 50px 0 50px;
+}
+
+.ant-section__ant011_team .section-title h2 {
+	font-weight: 700;
+	position: relative;
+	margin: 0;
+	margin-top: -15px;
+	font-size: 60px;
+}
+
+.ant-section__ant011_team .section-title {
+	text-align: center;
+}
+
+.ant-section__ant011_team .section-title p {
+	font-weight: 500;
+	padding-top: 10px;
+	font-size: 15px;
+	line-height: 28px;
+}
+
+.ant-section__ant011_team .ant010_blog__items {
+	padding-top: 40px;
+}
+
+.ant-section__ant011_team .team-member {
+	background: #fff none repeat scroll 0 0;
+	padding-bottom: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.4s ease-in-out 0s;
+	z-index: 2;
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+}
+
+.ant-section__ant011_team .team-member:hover .team-overlay {
+	visibility: visible;
+	transition: all 0.4s ease-in-out 0s;
+	top: 0px;
+}
+
+.ant-section__ant011_team .team-thumb {
+	position: relative;
+	overflow: hidden;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.ant-section__ant011_team .team-overlay {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	height: 100%;
+	top: 100%;
+	background-color: rgba(248, 114, 6, 0.8);
+	visibility: hidden;
+	transition: all 0.4s ease-in-out 0s;
+	text-align: center;
+}
+
+.ant-section__ant011_team .team-overlay ul {
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+}
+
+.ant-section__ant011_team .team-member img {
+	width: 100%;
+}
+
+.ant-section__ant011_team .team-member h2 {
+	font-size: 20px;
+	margin-top: 20px;
+	text-transform: capitalize;
+	transition: all 0.4s ease-in-out 0s;
+	color: #292929;
+	margin-bottom: 5px;
+}
+
+.ant-section__ant011_team .team-member span {
+	transition: all 0.4s ease-in-out 0s;
+	color: #f87206;
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 100%;
+	font-style: italic;
+}
+
+.ant-section__ant011_team .team-overlay li a {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 100%;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+.ant-section__ant011_team .team-overlay li {
+	transition: 0.6s;
+	-webkit-transition: 0.3s;
+	-khtml-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	display: inline-block;
+	text-align: left;
+	padding: 5px 0;
+}
+
+.ant-section__ant011_team .team-member:hover .team-overlay li {
+	transform: translateY(0px);
+}
+
+.ant-section__ant011_team .team-overlay li:nth-child(1) {
+	transform: translateY(20px);
+	transition-delay: .1s;
+}
+
+.ant-section__ant011_team .team-overlay li:nth-child(2) {
+	transform: translateY(40px);
+	transition-delay: .2s;
+}
+
+.ant-section__ant011_team .team-overlay li:nth-child(3) {
+	transform: translateY(60px);
+	transition-delay: .3s;
+}
+
+.ant-section__ant011_team .team-overlay li:nth-child(4) {
+	transform: translateY(80px);
+	transition-delay: .4s;
+}
+
+.ant-section__ant011_team .team-overlay li:nth-child(5) {
+	transform: translateY(100px);
+	transition-delay: .5s;
+}
+
+.ant-section__ant011_team .team-member li i {
+	color: #ffffff;
+}
+
+.ant-section__ant011_team .team-member li i:hover {
+	color: #000;
+}
+
+.ant-section__ant011_team .testimonial-text.expert-team {
+	position: relative;
+	padding-bottom: 70px;
+}
+
+.ant-section__ant011_team .testimonial-text.expert-team::before {
+	position: absolute;
+	content: "";
+	background-image: url(../img/team_sec_bg.png);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: -165px;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+.art_net_theme_section-overtitle, .art_net_theme_section-overtitle * {
+    font-size: 24px;
+    color: #0BBBF8;
+    line-height: 30px;
+}
+
+.art_net_theme_header-section {
+    text-align: center;
+}
+
+.art_net_theme_section-title h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-weight: bold;
+    color: #313131;
+}
+
+.art_net_theme_section-subtitle, .art_net_theme_section-subtitle * {
+    font-size: 15px;
+    color: #777777;
+    line-height: 27px;
+}

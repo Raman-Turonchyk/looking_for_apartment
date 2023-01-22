@@ -1,0 +1,167 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+	padding-top: 10vh	
+}
+
+p {
+	margin: 0;
+	color: fff;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 100vh;
+	/*позиционирование по центру*/
+	margin: 0 auto; 
+}
+
+.header {
+	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	padding-top: 1vh;
+	color: #fff;
+	padding-bottom: 25vh
+}
+
+.header a {
+	color: #fff;
+}
+
+.logo {
+	margin-right: 7vh;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+}
+
+.menu li a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.menu li {
+	margin-right: 40px;
+}
+
+.profile li a:hover {
+	border-bottom: 1px solid #fff;
+}
+.profile {
+	font-size: 17px;
+	margin-left: auto;
+	letter-spacing: 0.1em;
+}
+.profile hover {
+	border-bottom: 1px solid #fff;
+}
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.offer {
+	text-transform: uppercase;
+	margin-top: 7vh;
+}
+
+}
+.offer p {
+	font-size: 24px;
+	letter-spacing: 0.1em;
+}
+
+.offer h1 {
+	font-size: 80px;
+	margin-bottom: 1vh;
+	margin-top: -1vh;
+	letter-spacing: 0.02em
+}
+
+.description {
+	display: flex;
+}
+
+.description p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.62em;
+}
+
+.gallery {
+	margin-top: 6vh;
+	display: flex;
+}
+
+.gallery img {
+	transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+}
+
+.footer-text {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	margin: 0;
+	padding: 10vh;
+
+}
+
+.footer-text p {
+	margin-right: 10vh;
+}
+.desc-bot p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.62em;
+}
+.desc-bot h3{
+	margin-top: 8vh;
+}

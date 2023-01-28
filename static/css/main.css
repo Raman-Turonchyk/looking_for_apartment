@@ -24,7 +24,7 @@ h2 {
 
 h3 {
 	font-size: 25px;
-	margin-bottom: 28px;
+	margin-bottom: 2vh;
 }
 
 a {
@@ -133,6 +133,7 @@ ul, li {
 .gallery {
 	margin-top: 6vh;
 	display: flex;
+	margin-bottom: 1vh;
 }
 
 .gallery img {
@@ -156,14 +157,14 @@ ul, li {
 .footer-text p {
 	margin-right: 10vh;
 }
-.desc-bot p {
+.desc-left p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	text-align: justify;
 	line-height: 1.62em;
 }
-.desc-bot h3{
-	margin-top: 8vh;
+.desc-left h3{
+	margin-top: 1vh;
 }
 
 .footer {

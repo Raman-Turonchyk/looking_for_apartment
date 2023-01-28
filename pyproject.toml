@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "looking_for_apartment"
+version = "0.1.0"
+description = ""
+authors = ["Roman_Turonchik&Kirill_zZmitrovich"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.dev-dependencies]
+Django = "^4.1.5"
+django-extensions = "^3.2.1"
+django-debug-toolbar = "3.8.1"
+pytest = "^7.2.1"
+ipython = "^8.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

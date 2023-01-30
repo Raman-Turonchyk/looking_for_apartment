@@ -133,7 +133,7 @@ ul, li {
 .gallery {
 	margin-top: 6vh;
 	display: flex;
-	margin-bottom: 1vh;
+	margin-bottom: 5vh;
 }
 
 .gallery img {

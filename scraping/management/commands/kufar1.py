@@ -73,8 +73,7 @@ class Command(BaseCommand):
                 count += 1
 
 
-        # url = 'https://re.kufar.by/l/minsk/snyat/kvartiru-dolgosrochno/1k/bez-posrednikov?cur=USD'
-        url = 'https://re.kufar.by/l/minsk/snyat/kvartiru-dolgosrochno/1k/bez-posrednikov?cur=USD&gbx=b%3A27.212593274414044%2C53.610880226147074%2C28.106605725585936%2C54.16012964182954&gtsy=country-belarus~province-minsk~locality-minsk&size=30'
+        url = 'https://re.kufar.by/l/minsk/snyat/kvartiru-dolgosrochno/1k/bez-posrednikov?cur=USD'
         iteration = 1
 
         get_page_data(get_html(url), iteration)

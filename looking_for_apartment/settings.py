@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'finding_apartment',
     'django_extensions',
     'debug_toolbar',
+    'scraping',
 ]
 
 MIDDLEWARE = [

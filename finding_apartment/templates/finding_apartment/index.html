@@ -4,10 +4,9 @@
 {% load static %}
 	<section id="about" class="about">
 		<div class="container">
-
 			<div class="description">
 				<div class="desc-left">
-					<h3>WARSAW</h3>
+					<h3><a href="{% url 'city_info' id=2 %}">WARSAW</a></h3>
 					<div class="gallery">
 					     <img src="{% static 'images/img1.jpg' %}" alt="Event photo 1" class="logo" style="width:100vh !important; height: 60vh !important;">
 					</div>
@@ -15,7 +14,7 @@
 			</div>
 			<div class="description">
 				<div class="desc-left">
-					<h3>MINSK</h3>
+					<h3><a href="{% url 'city_info' id=1 %}">MINSK</a></h3>
 					<div class="gallery">
 						<img src="{% static 'images/img2.jpg' %}" alt="Event photo 2" style="width:100vh !important; height: 60vh !important;">
 					</div>
@@ -25,14 +24,13 @@
 
 			<div class="description">
 				<div class="desc-left">
-					<h3>TBILISI</h3>
+					<h3><a href="{% url 'city_info' id=3 %}">TBILISI</a></h3>
 					<div class="gallery">
 						<img src="{% static 'images/img3.jpg' %}" alt="Event photo 2" style="width:100vh !important; height: 60vh !important;">
 					</div>
 
 				</div>
 			</div>
-			
 		</div>
 	</section>
 {% endblock %}

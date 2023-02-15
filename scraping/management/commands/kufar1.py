@@ -72,25 +72,25 @@ class Command(BaseCommand):
                 print(f'Выполнено {count} итераций, осталось {ost - count} итераций, страница номер № {page}')
                 count += 1
 
+        for i in range(1, 6):
+            url = f'https://re.kufar.by/l/minsk/snyat/kvartiru-dolgosrochno/{i}k/bez-posrednikov?cur=USD'
+            iteration = 1
 
-        url = 'https://re.kufar.by/l/minsk/snyat/kvartiru-dolgosrochno/1k/bez-posrednikov?cur=USD'
-        iteration = 1
-
-        get_page_data(get_html(url), iteration)
-
-        while True:
             get_page_data(get_html(url), iteration)
 
-            soup = BeautifulSoup(get_html(url), 'lxml')
+            while True:
+                get_page_data(get_html(url), iteration)
 
-            try:
-                url_link = soup.find('div', class_='styles_links__inner__huze7').find_all('a')
-                url = 'https://re.kufar.by' + url_link[-1].get('href')
-            except AttributeError:
-                break
+                soup = BeautifulSoup(get_html(url), 'lxml')
 
-            if len(url_link) < 5 and iteration != 1:
-                print('Работа завершена')
-                break
-            time.sleep(12)
-            iteration += 1
+                try:
+                    url_link = soup.find('div', class_='styles_links__inner__huze7').find_all('a')
+                    url = 'https://re.kufar.by' + url_link[-1].get('href')
+                except AttributeError:
+                    break
+
+                if len(url_link) < 5 and iteration != 1:
+                    print('Работа завершена')
+                    break
+                time.sleep(12)
+                iteration += 1

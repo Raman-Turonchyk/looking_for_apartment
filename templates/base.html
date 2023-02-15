@@ -9,6 +9,8 @@
 	<link rel="icon" href="{% static 'images/favicon.png' %}" type="image/x-icon">
 	<link rel="shortcut icon" href="{% static 'images/favicon.png' %}" type="image/x-icon">
 	<link rel="stylesheet" href="{% static 'css/main.css' %}">
+	<link rel="stylesheet" href="{% static 'feedback/forms.css' %}">
+	{% block head %}{% endblock %}
 </head>
 <body bgcolor="#fffffa">
 	<header id="header" class="header">
@@ -17,7 +19,7 @@
 				<img src="{% static 'images/logo.svg' %}" alt="Burning Man" class="logo" style="width: 10vh !important; height: 6vh !important;">
 				<ul class="menu">
 					<li>
-						<a href="#">
+						<a href="{% url 'index' %}">
 							Home
 						</a>
 					</li>

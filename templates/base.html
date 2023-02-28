@@ -39,6 +39,24 @@
 		</div>
 	</header>
 	{% block content %}{% endblock %}
+	{% block pagination %}
+		{% if page_obj %}
+			<div class="pagination" style="text-align: center;">
+				<span class="page-links">
+					{% if page_obj.has_previous %}
+						<a href="{{request.path}}?page={{page_obj.previous_page_number }}"><<<</a>
+					{% endif %}
+					<span class="page_current">
+						Страница {{ page_obj.number }} из
+						{{ page_obj.paginator.num_pages }}.
+					</span>
+					{% if page_obj.has_next %}
+						<a href="{{ request.path }}?page={{ page_obj.next_page_number }}">>>></a>
+					{% endif %}
+				</span>
+			</div>
+		{% endif %}
+	{% endblock %}
 	<footer id="footer" class="footer">
 		<div class="container">
 			<div class="footer-text">

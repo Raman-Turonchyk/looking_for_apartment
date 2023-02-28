@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Burning Man{% endblock %}
+{% block head %}
+  <link rel="stylesheet" href="{% static 'finding_apartment/looking_page.css' %}">
+{% endblock %}
+{% block content %}
+  {% if page_obj %}
+    <ul>
+      {% for apartment in page_obj %}
+        <li>
+          <a href="{{ link.link }}" target="_blank">
+            <div class="apart_block">
+              Количество комнат: {{ apartment.room }}<br>
+              Район: {{ apartment.region }}<br>
+              Адрес: {{ apartment.address }}<br>
+              Цена: {{ apartment.price }}<br>
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>В базе данных пока нет данной информации</p>
+  {% endif %}
+{% endblock %}
+

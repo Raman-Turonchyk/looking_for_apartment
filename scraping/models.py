@@ -16,7 +16,7 @@ class Link(models.Model):
     room = models.IntegerField(help_text='Количество комнат', null=True, blank=True)
     region = models.CharField(max_length=100, help_text='Район', null=True, blank=True)
     address = models.CharField(max_length=150, help_text='Адресс', null=True, blank=True)
-    price = models.FloatField(help_text='Цена', null=True, blank=True)
+    price = models.IntegerField(help_text='Цена', null=True, blank=True)
     city = models.ForeignKey('City', on_delete=models.CASCADE, help_text='Выберите город',
                              verbose_name='Город')
 

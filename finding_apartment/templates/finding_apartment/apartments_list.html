@@ -9,7 +9,7 @@
     <ul>
       {% for apartment in page_obj %}
         <li>
-          <a href="{{ link.link }}" target="_blank">
+          <a href="{{ apartment.link }}" target="_blank">
             <div class="apart_block">
               Количество комнат: {{ apartment.room }}<br>
               Район: {{ apartment.region }}<br>
